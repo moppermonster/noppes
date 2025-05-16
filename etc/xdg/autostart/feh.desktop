@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=Wallpaper
+Exec=feh --bg-scale /etc/nixos/noppes/wallpaper.jpg
+Terminal=false

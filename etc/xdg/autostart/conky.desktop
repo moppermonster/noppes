@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=Clock and battery
+Exec=conky -d -c /etc/xdg/conky/conkyrc
+Terminal=false

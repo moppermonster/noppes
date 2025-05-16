@@ -1,0 +1,16 @@
+conky.config = {
+    alignment = 'top_right',
+    background = false,
+    default_color = 'ffffff',
+    double_buffer = true,
+    gap_x = 4,
+    gap_y = 4,
+    own_window = false,
+    own_window_type = 'desktop',
+    update_interval = 5,
+    use_xft = true,
+    xftalpha = 1,
+}
+conky.text = [[
+${battery_percent BATT}%  ${time %d %B %H:%M}
+]]

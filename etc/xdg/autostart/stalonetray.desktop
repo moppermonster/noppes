@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=System Tray
+Exec=stalonetray -t --icon-gravity "NW" --icon-size "36"
+Terminal=false
