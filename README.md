@@ -64,7 +64,7 @@ There are a few options here:
 
 1. Copy the default openbox menu file into your openbox directory (has entries for `xterm`, `xfce4-launcher`, `firefox` by default; but also many other things).
 2. Add an `autorun` to your openbox directory that opens a terminal emulator on login.
-3. Create a custom menu file into your openbox directory.
+3. Create a custom menu file in your openbox directory.
 
 ### Update `configuration.nix`
 Assuming that this repo was placed at `/etc/nixos/noppes`, add the following to your `configuration.nix` imports:
@@ -84,7 +84,8 @@ Assuming that this repo was placed at `/etc/nixos/noppes`, add the following to 
 ### Make sure you have `x11` enabled:
 
 ```
-services.xserver.displayManager.lightdm.enable = true;
+  # Enable the X11 windowing system.
+  services.xserver.enable = true;
 ```
 
 Since we'll be using `openbox`.
