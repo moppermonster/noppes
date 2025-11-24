@@ -1,3 +1,6 @@
+> Currently not working on this, might come back to the idea at some point.
+> Highly unlikely!
+
 # noppes
 nixos configuration modules for a kid friendly (locked down) machine setup
 
